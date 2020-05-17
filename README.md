@@ -7,4 +7,4 @@ create a dir and clone the project
  
 cd into Quiz-application and type npm install 
 cd into quiz and type npm install
-cd ..(root folder) and type yarn run dev 
+cd ..(root folder) and type yarn run dev
