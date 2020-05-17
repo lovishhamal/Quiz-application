@@ -10,6 +10,6 @@ create a dir and clone the project
  - cd into quiz and type npm install
  - cd ..(root folder) and type yarn run dev
 
-please note you have to add atleast two questions to initialize the quiz.
+Please note you have to add atleast two questions to initialize the quiz.
 
  - server runs on port 5000 and react run on port 3000
