@@ -1,0 +1,21 @@
+{
+	"name": "quiz-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"server": "nodemon server.js",
+		"dev": "concurrently \"yarn run server \" \" cd ./quiz && yarn start \" ",
+		"build": "npm install --prefix quiz && yarn run build --prefix quiz"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^5.2.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.14",
+		"nodemon": "^2.0.3",
+		"pg": "^8.2.0"
+	}
+}
