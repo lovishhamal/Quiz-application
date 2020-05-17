@@ -13,3 +13,4 @@ create a dir and clone the project
 Please note you have to add atleast two questions to initialize the quiz.
 
  - server runs on port 5000 and react run on port 3000
+ - Make sure nothing runs on port 5000
