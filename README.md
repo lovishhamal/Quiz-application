@@ -1,6 +1,6 @@
 # Quiz-application
 
-Please make sure you have node js and mongo db installed.
+Please make sure you have node js, mongo db and yarn installed.
 I have used mongodb to store questions along with answers and implemented a restful api.
 
 create a dir and clone the project
