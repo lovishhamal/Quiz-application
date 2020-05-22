@@ -136,8 +136,6 @@ export default function Main() {
 		result = <Result per={getPercent} correctAnswer={correctAnswer} wrongAnswer={wrongAnswer} />;
 	}
 
-	console.log('value -> ', value);
-
 	return (
 		<div>
 			<Navbar />
