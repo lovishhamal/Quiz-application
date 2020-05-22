@@ -13,8 +13,8 @@ router.post('/add', async (req, res) => {
 	try {
 		console.log('done ,');
 
-		const { question } = req.body;
-		const { options } = req.body;
+		const { question, options } = req.body;
+
 		const quiz = new QuizDb({
 			questions: question,
 			values: options
