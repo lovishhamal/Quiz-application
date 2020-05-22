@@ -24,8 +24,8 @@ mongoose
 
 app.post('/add', async (req, res) => {
 	try {
-		const { question } = req.body;
-		const { options } = req.body;
+		const { question, options } = req.body;
+
 		const quiz = new QuizDb({
 			questions: question,
 			values: options
@@ -52,8 +52,7 @@ app.get('/addoption/:id', async (req, res) => {
 
 app.put('/update/', async (req, res) => {
 	try {
-		const { checkOptions } = req.body;
-		const { Qid } = req.body;
+		const { checkOptions, Qid } = req.body;
 
 		for (let i in checkOptions) {
 			const update = await QuizDb.findOneAndUpdate(
