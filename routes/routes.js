@@ -11,7 +11,7 @@ router.get('/getquestions', async (req, res) => {
 
 router.post('/add', async (req, res) => {
 	try {
-		console.log('done ,');
+		
 
 		const { question, options } = req.body;
 
